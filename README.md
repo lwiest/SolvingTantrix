@@ -50,7 +50,7 @@ Tiles 1-... | Loop Color | Sample Solution
 10      | Blue       | ![Tantrix Solution 10 Blue](images/readme/Solution_10_1_1639.png "Tantrix Solution 10 Blue")
 10      | Yellow     | ![Tantrix Solution 10 Yellow](images/readme/Solution_10_2_2560.png "Tantrix Solution 10 Yellow")
 
-One of **my favorite solutions** is this double-loop:
+Out of all solutions, one of **my favorite solutions** is this double-loop:
 
 ![Tantrix Solution Double Loop](images/readme/Solution_10_1_2134.png "Tantrix Solution Double Loop")
 
