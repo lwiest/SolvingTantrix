@@ -18,9 +18,9 @@ I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered,
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
-The goal is to arrange the tiles complying to the following rules:
-1. Line segments at the edges of neighboring tiles match their color.
-1. Line segments of the tiles form a closed loop in a given color.
+The goal is to arrange the tiles applying the following rules:
+1. All line segments at the edges of neighboring tiles must match their color.
+1. Some line segments of the tiles must form a closed loop in a given color.
 
 You start with tiles 1-3, then work your way up to the full set of 10 tiles.
 
@@ -28,7 +28,7 @@ For example, tiles 1-4 can be arranged into the following solutions, with the gi
 
 ![Tantrix Discovery Tiles 1-4](images/readme/Tiles_1_4.png "Tantrix Discovery Tiles 1-4")
 
-How many solutions are possible for a given number of tiles and color? Would mean more tiles more or fewer solutions?
+How many solutions are possible for a given number of tiles and color? Would mean more tiles more (or fewer?) solutions?
 
 ## Solution
 
@@ -36,7 +36,7 @@ I wrote a computer program in Java (the source is available in this repo) that c
 
 ## Results
 
-Here are **some sample solutions** of the puzzles given in the game’s instructions:
+The game’s instructions suggest a set of puzzles. Here are **some sample solutions**:
 Tiles 1-... | Loop Color | Sample Solution
 -------:|------------|----------------
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
@@ -78,4 +78,4 @@ They add up to a grand total of	2902 solutions.
 
 Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the “solutions” subfolder of the project.
 
-Source of Tantrix tile images: [Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications.
+Source of Tantrix tile images: [Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications
