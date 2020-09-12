@@ -24,7 +24,7 @@ The goal is to arrange the tiles complying to the following rules:
 
 You start with tiles 1-3, then work your way up to the full set of 10 tiles.
 
-For example, tiles 1-4 can be arranged into the following solutions, with the given loop color being yellow:
+For example, tiles 1-4 can be arranged into the following solutions, with the given loop color being red:
 
 ![Tantrix Discovery Tiles 1-4](images/readme/Tiles_1_4.png "Tantrix Discovery Tiles 1-4")
 
