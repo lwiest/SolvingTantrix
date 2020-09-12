@@ -54,9 +54,9 @@ One of **my favorite solutions** is this double-loop:
 
 ![Tantrix Solution Double Loop](images/readme/Solution_10_1_2134.png "Tantrix Solution Double Loop")
 
-Find a **“poster-like” image** of all 2902 solutions ![here](images/readme/poster/poster.png "here").
+Find a **“poster-like” image** of all 2902 solutions [here](images/poster/poster.png).
 
-Find **individual images** of all 2902 solutions ![here](images/readme/solutions "here").
+Find **individual images** of all 2902 solutions [here](images/solutions).
 
 If you like statistics, here’s a breakdown of the numbers of solutions by tile set and loop color:
 
@@ -78,4 +78,4 @@ They add up to a grand total of	2902 solutions.
 
 Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the “solutions” subfolder of the project.
 
-Source of Tantrix tile images: ![Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications.
+Source of Tantrix tile images: [Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications.
