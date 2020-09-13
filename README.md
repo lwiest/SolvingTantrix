@@ -18,7 +18,7 @@ I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered,
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
-The goal is to arrange the tiles applying the following rules:
+The goal is to arrange a subset of the tiles applying the following rules:
 1. All line segments at the edges of neighboring tiles must match their color.
 1. Some line segments of the tiles must form a closed loop in a given color.
 
@@ -28,11 +28,11 @@ For example, tiles 1-4 can be arranged into the following solutions, with the gi
 
 ![Tantrix Discovery Tiles 1-4](images/readme/Tiles_1_4.png "Tantrix Discovery Tiles 1-4")
 
-How many solutions are possible for a given number of tiles and color? Would mean more tiles more (or fewer?) solutions?
+This made me curious: How many solutions are possible for a given number of tiles and color? Would mean more tiles more (or fewer?) solutions?
 
 ## Solution
 
-I wrote a computer program in Java (the source is available in this repo) that computes all solutions. It uses a backtracking algorithm and eliminates duplicate solutions by computing a hash value, which it compares with those of previous solutions. It also rejects solutions containing holes (apparently an unofficial Tantrix rule). For each actual solution the program renders an image and saves it to a file.
+I wrote a computer program in Java (the source code is available in this repo) that computes all solutions. It uses a backtracking algorithm and eliminates duplicate solutions by computing a hash value, which it compares with those of previous solutions. It also rejects solutions containing holes (apparently an unofficial Tantrix rule). For each actual solution the program renders an image and saves it to a file.
 
 ## Results
 
@@ -76,6 +76,6 @@ They add up to a grand total of	2902 solutions.
 
 ## Build Instructions
 
-Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the “solutions” subfolder of the project.
+Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the `solutions` subfolder of the project.
 
 Source of Tantrix tile images: [Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications
