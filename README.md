@@ -18,8 +18,8 @@ I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered,
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
-The goal is to arrange a subset of the tiles applying the following rules:
-1. All line segments at the edges of neighboring tiles must match their color.
+The goal is to arrange a subset of the tiles by applying the following rules:
+1. All line segments at the edges of neighboring tiles must match their colors.
 1. Some line segments of the tiles must form a closed loop in a given color.
 
 You start with tiles 1-3, then work your way up to the full set of 10 tiles.
@@ -38,7 +38,7 @@ I wrote a computer program in Java (the source code is available in this repo) t
 
 The game’s instructions suggest a set of puzzles. Here are **some sample solutions**:
 Tiles 1-... | Loop Color | Sample Solution
--------:|------------|----------------
+-------:|------------|:--------------:
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
 4	      | Red        | ![Tantrix Solution 4 Red](images/readme/Solution_04_0_0003.png "Tantrix Solution 4 Red")
 5	      | Red        | ![Tantrix Solution 5 Red](images/readme/Solution_05_0_0007.png "Tantrix Solution 5 Red")
