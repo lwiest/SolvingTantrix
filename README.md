@@ -56,8 +56,6 @@ Out of all solutions, one of **my favorite solutions** is this double-loop:
 
 Find a **“poster-like” image** of all 2902 solutions [here](images/poster/poster.png).
 
-Find **individual images** of all 2902 solutions [here](images/solutions).
-
 If you like statistics, here’s a breakdown of the numbers of solutions by tile set and loop color:
 
 Tiles 1-... | Yellow | Red    | Blue
