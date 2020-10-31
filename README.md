@@ -18,8 +18,8 @@ I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered,
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
-The goal is to arrange a subset of the tiles by applying the following rules:
-1. All line segments at the edges of neighboring tiles must match their colors.
+The goal is to arrange a subset of these tiles by applying the following rules:
+1. All line segments at the edges of neighboring tiles must match in color.
 1. Some line segments of the tiles must form a closed loop in a given color.
 
 You start with tiles 1-3, then work your way up to the full set of 10 tiles.
@@ -28,7 +28,7 @@ For example, tiles 1-4 can be arranged into the following solutions, with the gi
 
 ![Tantrix Discovery Tiles 1-4](images/readme/Tiles_1_4.png "Tantrix Discovery Tiles 1-4")
 
-This made me curious: How many solutions are possible for a given number of tiles and color? Would mean more tiles more (or fewer?) solutions?
+This made me curious: How many solutions are possible for a given number of tiles and color? Would mean more tiles more solutions? Or fewer?
 
 ## Solution
 
@@ -36,8 +36,8 @@ I wrote a computer program in Java (the source code is available in this repo) t
 
 ## Results
 
-The game’s instructions suggest a set of puzzles. Here are **some sample solutions**:
-Tiles 1-... | Loop Color | Sample Solution
+The game’s instructions suggest a set of puzzles. Here are **some computed sample solutions**:
+Tiles 1-... | Loop Color | Computed Sample Solution
 -------:|------------|:--------------:
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
 4	      | Red        | ![Tantrix Solution 4 Red](images/readme/Solution_04_0_0003.png "Tantrix Solution 4 Red")
@@ -54,7 +54,7 @@ Out of all solutions, one of **my favorite solutions** is this double-loop:
 
 ![Tantrix Solution Double Loop](images/readme/Solution_10_1_2134.png "Tantrix Solution Double Loop")
 
-Find a **“poster-like” image** of all 2902 solutions [here](images/poster/poster.png).
+Find a **“poster” image** of all 2902 solutions [here](images/poster/poster.png).
 
 If you like statistics, here’s a breakdown of the numbers of solutions by tile set and loop color:
 
