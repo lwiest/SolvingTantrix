@@ -14,7 +14,7 @@ Enjoy &mdash; Lorenz
 
 ## Introduction
 
-I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered, hexagonal tiles:
+I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered hexagonal tiles:
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
@@ -36,7 +36,7 @@ I wrote a computer program in Java (the source code is available in this repo) t
 
 ## Results
 
-The game’s instructions suggest a set of puzzles. Here are **some computed sample solutions**:
+The gameâ€™s instructions suggest a set of puzzles. Here are **some computed sample solutions**:
 Tiles 1-... | Loop Color | Computed Sample Solution
 -------:|------------|:--------------:
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
@@ -54,9 +54,9 @@ Out of all solutions, one of **my favorite solutions** is this double-loop:
 
 ![Tantrix Solution Double Loop](images/readme/Solution_10_1_2134.png "Tantrix Solution Double Loop")
 
-Find a **“poster” image** of all 2902 solutions [here](images/poster/poster.png).
+Find a **â€œposterâ€� image** of all 2902 solutions [here](images/poster/poster.png).
 
-If you like statistics, here’s a breakdown of the numbers of solutions by tile set and loop color:
+If you like statistics, hereâ€™s a breakdown of the numbers of solutions by tile set and loop color:
 
 Tiles 1-... | Yellow | Red    | Blue
 -----------:|-------:|-------:|-------:
