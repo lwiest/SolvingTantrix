@@ -18,7 +18,7 @@ I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered 
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
-The goal is to arrange a subset of these tiles by applying the following rules:
+The goal is to arrange a subset of the tiles by applying the following rules:
 1. All line segments at the edges of neighboring tiles must match in color.
 1. Some line segments of the tiles must form a closed loop in a given color.
 
@@ -28,15 +28,21 @@ For example, tiles 1-4 can be arranged into the following solutions, with the gi
 
 ![Tantrix Discovery Tiles 1-4](images/readme/Tiles_1_4.png "Tantrix Discovery Tiles 1-4")
 
-This made me curious: How many solutions are possible for a given number of tiles and color? Would mean more tiles more solutions? Or fewer?
+This made me curious:
+
+How many solutions are possible for a given number of tiles and color?
+
+Would mean more tiles more solutions?
+
+Or fewer?
 
 ## Solution
 
-I wrote a computer program in Java (the source code is available in this repo) that computes all solutions. It uses a backtracking algorithm and eliminates duplicate solutions by computing a hash value, which it compares with those of previous solutions. It also rejects solutions containing holes (apparently an unofficial Tantrix rule). For each actual solution the program renders an image and saves it to a file.
+I wrote a computer program in Java (the source code is available in this GitHub repo) that computes all solutions. It uses a backtracking algorithm and eliminates duplicate solutions by calculating a hash value, which it compares with those of previous solutions. It also rejects solutions containing holes (apparently an unofficial Tantrix rule). For each actual solution the program renders an image and saves it to a file.
 
 ## Results
 
-The gameâ€™s instructions suggest a set of puzzles. Here are **some computed sample solutions**:
+The game&rsquo;s instructions suggest a set of puzzles. Here are **some computed sample solutions**:
 Tiles 1-... | Loop Color | Computed Sample Solution
 -------:|------------|:--------------:
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
@@ -54,9 +60,9 @@ Out of all solutions, one of **my favorite solutions** is this double-loop:
 
 ![Tantrix Solution Double Loop](images/readme/Solution_10_1_2134.png "Tantrix Solution Double Loop")
 
-Find a **â€œposterâ€� image** of all 2902 solutions [here](images/poster/poster.png).
+Find a **&ldquo;poster&rdquo; image** of all 2902 solutions [here](images/poster/poster.png).
 
-If you like statistics, hereâ€™s a breakdown of the numbers of solutions by tile set and loop color:
+If you like statistics, here&rsquo;s a breakdown of the numbers of solutions by tile set and loop color:
 
 Tiles 1-... | Yellow | Red    | Blue
 -----------:|-------:|-------:|-------:
