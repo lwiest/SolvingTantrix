@@ -30,11 +30,9 @@ For example, tiles 1-4 can be arranged into the following solutions, with the gi
 
 This made me curious:
 
-How many solutions are possible for a given number of tiles and color?
-
-Would mean more tiles more solutions?
-
-Or fewer?
+* How many solutions are possible for a given number of tiles and color?
+* Would mean more tiles more solutions?
+* Or fewer?
 
 ## Solution
 
@@ -43,7 +41,7 @@ I wrote a computer program in Java (the source code is available in this GitHub 
 ## Results
 
 The game&rsquo;s instructions suggest a set of puzzles. Here are **some computed sample solutions**:
-Tiles 1-... | Loop Color | Computed Sample Solution
+Tiles 1-&hellip; | Loop Color | Computed Sample Solution
 -------:|------------|:--------------:
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
 4	      | Red        | ![Tantrix Solution 4 Red](images/readme/Solution_04_0_0003.png "Tantrix Solution 4 Red")
