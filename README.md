@@ -30,7 +30,7 @@ For example, with the given loop color being red, tiles 1-4 can be arranged into
 
 This made me curious:
 
-* How many solutions are possible for a given number of tiles and loop color?
+* How many solutions are possible for a given set of tiles and loop color?
 * Would mean more tiles more solutions?
 * Or fewer?
 
@@ -40,7 +40,7 @@ I wrote a computer program in Java (the source code is available in this GitHub 
 
 ## Results
 
-The game&rsquo;s instructions suggest a set of puzzles, each specifying the number of tiles and the loop color. Here are **some computed sample solutions**:
+The game&rsquo;s instructions suggest a set of puzzles, each specifying the set of tiles and the loop color. Here are **some computed sample solutions**:
 Tiles 1-&hellip; | Loop Color | Computed Sample Solution
 -------:|------------|:--------------:
 3	      | Yellow     | ![Tantrix Solution 3 Yellow](images/readme/Solution_03_2_0001.png "Tantrix Solution 3 Yellow")
