@@ -36,7 +36,7 @@ This made me curious:
 
 ## Solution
 
-I wrote a computer program in Java (the source code is available in this GitHub repo) that computes all solutions. It uses a backtracking algorithm and eliminates duplicate solutions by calculating a hash value, which it compares with those of previous solutions. It also rejects solutions containing holes (apparently an unofficial Tantrix rule). For each actual solution the program renders an image and saves it to a file.
+I wrote a computer program in Java (the source code is available in this GitHub repository) that computes all solutions. It uses a backtracking algorithm and eliminates duplicate solutions by calculating a hash value, which it compares with those of previous solutions. It also rejects solutions containing holes (apparently an unofficial Tantrix rule). For each actual solution the program renders an image and saves it to a file.
 
 ## Results
 
@@ -78,7 +78,7 @@ They add up to a grand total of	2902 solutions.
 
 ## Build Instructions
 
-Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the `solutions` subfolder of the project.
+Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the `solutions` subfolder of this GitHub repository.
 
 Source of Tantrix tile images: [Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications
 
