@@ -1,6 +1,6 @@
 # SolvingTantrix
 
-_Solving Tantrix_ is an open-source program for solving _Tantrix Discovery_ puzzles, written in Java.
+_SolvingTantrix_ is an open-source program for solving _Tantrix Discovery_ puzzles, written in Java.
 
 Enjoy &mdash; Lorenz
 
