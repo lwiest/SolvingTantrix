@@ -1,6 +1,6 @@
 # SolvingTantrix
 
-Solving Tantrix is an open-source program for solving _Tantrix Discovery_ puzzles, written in Java.
+_Solving Tantrix_ is an open-source program for solving _Tantrix Discovery_ puzzles, written in Java.
 
 Enjoy &mdash; Lorenz
 
@@ -78,7 +78,7 @@ They add up to a grand total of	2902 solutions.
 
 ## Build Instructions
 
-Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the `solutions` subfolder of this GitHub repository.
+Build the program with the Eclipse IDE by using the provided Eclipse project files. I used Eclipse 2019-12 (4.10.0) running Java 1.8, but older versions might do as well. After running the program, find the image files of each solution in the `solutions` folder of this project.
 
 Source of Tantrix tile images: [Wikipedia Tantrix](https://en.wikipedia.org/wiki/Tantrix "Wikipedia Tantrix") with own modifications
 
