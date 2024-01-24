@@ -58,8 +58,6 @@ Out of all solutions, one of **my favorite solutions** is this double-loop:
 
 ![Tantrix Solution Double Loop](images/readme/Solution_10_1_2134.png "Tantrix Solution Double Loop")
 
-Find a **&ldquo;poster&rdquo; image** of all 2902 solutions [here](images/poster/poster.png).
-
 If you like statistics, here&rsquo;s a breakdown of the numbers of solutions by tile set and loop color:
 
 Tiles 1-... | Yellow | Red    | Blue
@@ -75,6 +73,8 @@ Tiles 1-... | Yellow | Red    | Blue
 **Total**   | **504** | **1318** | **1080**
 
 They add up to a grand total of	2902 solutions.
+
+Find a **&ldquo;poster&rdquo; image** of all 2902 solutions [here](images/poster/poster.png).
 
 ## Build Instructions
 
