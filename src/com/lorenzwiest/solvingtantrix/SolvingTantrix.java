@@ -363,11 +363,11 @@ public class SolvingTantrix {
 		t.setRow(-1);
 	}
 
-	private final static int[] EVEN_OFFSET_COLUMN = { 1, 1, 1, 0, -1, 0 };
-	private final static int[] EVEN_OFFSET_ROW = { -1, 0, 1, 1, 0, -1 };
+	private static final int[] EVEN_OFFSET_COLUMN = { 1, 1, 1, 0, -1, 0 };
+	private static final int[] EVEN_OFFSET_ROW = { -1, 0, 1, 1, 0, -1 };
 
-	private final static int[] ODD_OFFSET_COLUMN = { 0, 1, 0, -1, -1, -1 };
-	private final static int[] ODD_OFFSET_ROW = { -1, 0, 1, 1, 0, -1 };
+	private static final int[] ODD_OFFSET_COLUMN = { 0, 1, 0, -1, -1, -1 };
+	private static final int[] ODD_OFFSET_ROW = { -1, 0, 1, 1, 0, -1 };
 
 	private static int getColOffset(Tile t, int direction) {
 		return (isEven(t.getRow())) ? EVEN_OFFSET_COLUMN[direction] : ODD_OFFSET_COLUMN[direction];

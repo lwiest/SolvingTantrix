@@ -37,12 +37,12 @@ import javax.imageio.ImageIO;
 import com.lorenzwiest.solvingtantrix.SolvingTantrix.Tile;
 
 public class SolvingTantrixGraphics {
-	private final static String FILENAME_TILE_STRIP = "resources/TantrixTiles.png";
-	private final static String FOLDERNAME_SOLUTIONS = "solutions/";
+	private static final String FILENAME_TILE_STRIP = "resources/TantrixTiles.png";
+	private static final String FOLDERNAME_SOLUTIONS = "solutions/";
 
-	private final static int NUM_TILES = 14;
-	private final static int TILE_WIDTH = 126;
-	private final static int TILE_HEIGHT = 144;
+	private static final int NUM_TILES = 14;
+	private static final int TILE_WIDTH = 126;
+	private static final int TILE_HEIGHT = 144;
 
 	public static void render(String filename, List<Tile> solution, Tile[][] board, int minRow, int maxRow, int minCol, int maxCol) {
 		final int OFFSET_X = 4;
