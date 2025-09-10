@@ -14,7 +14,7 @@ Enjoy &mdash; Lorenz
 
 ## Introduction
 
-I recently received a _Tantrix Discovery_ puzzle, which consists of 10 numbered hexagonal tiles:
+Recently I received a _Tantrix Discovery_ puzzle, which consists of 10 numbered hexagonal tiles:
 
 ![Tantrix Discovery Tiles](images/readme/Tiles_strip.png "Tantrix Discovery Tiles")
 
